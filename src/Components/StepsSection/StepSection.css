@@ -1,0 +1,108 @@
+/* :root { */
+    /* background: #007EA7;
+  }
+   */
+   *,
+   *:before,
+   *:after {
+     box-sizing: border-box;
+   }
+   
+   body {
+     font-family: "Open Sans", sans-serif;
+     background-color: #001829;
+   }
+  
+   .wrapper {
+     min-height: 60vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 0px 15px;
+   }
+   @media(max-width:500px){
+     .wrapper {
+       min-height: 40vh;
+     }
+   }
+   .Steps-container{
+     max-width: 300px;
+     margin: 0 auto;
+   }
+   .steps {
+     max-width: 300px;
+     margin: 0 auto;
+   }
+   .title2{
+     font-size: 18px;
+     font-weight: 600;
+     margin: 15px;
+   }
+   
+   .step {
+     display: flex;
+     position: relative;
+   }
+   
+   .step:after {
+     content: "";
+     position: absolute;
+     left: 15px;
+     top: 32px;
+     height: 0;
+     width: 2px;
+     background: rgb(10, 134, 241);
+   }
+   
+   .step .info {
+     margin: 8px 0 20px;
+   }
+   
+   .step .title {
+     font-size: 16px;
+     font-weight: 600;
+     margin: 0 0 8px;
+     color: rgba(255, 255, 255, 0.822);
+   }
+   
+   .step .text {
+     font-size: 12px;
+     color: rgba(255, 255, 255, 0.7);
+     padding-bottom: 0;
+     margin: 0;
+   }
+   
+   .step:not(:last-child):after {
+     height: 75%;
+   }
+   
+   .number {
+     width: 32px;
+     height: 32px;
+     background-color: transparent;
+     border-radius: 50%;
+     border: 2px solid rgb(10, 134, 241);
+     flex-shrink: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-size: 15px;
+     font-weight: 600;
+     margin-right: 14px;
+   }
+   
+   .number.completed {
+     background-color: rgb(10, 134, 241);
+   }
+   
+   .number svg {
+     width: 16px;
+     height: 16px;
+     object-fit: contain;
+   }
+   
+   .number svg path {
+     fill: white;
+   }
+   

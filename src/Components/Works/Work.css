@@ -1,0 +1,22 @@
+.work-container{
+    background: #17022c;
+    padding: 1rem 0 2rem 0;
+}
+
+.Project-container{
+    max-width: 1390px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    background: #17022c;
+}
+
+.boxContainer .work-container {
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.267);
+    border-radius: .5rem;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    position: relative;
+    width: 170px;
+    height: auto;
+}

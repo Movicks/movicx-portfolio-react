@@ -1,0 +1,49 @@
+.Hero-Img{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    background: #17022c;
+    z-index: 1;
+}
+.Hero-Img::before{
+    content: " ";
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: url(https://media.istockphoto.com/id/1549847808/photo/notebook-coding-background-business-data-analytics-programming-online-digital-world-technology.jpg?s=1024x1024&w=is&k=20&c=pfJyqxmvT6Y4J8MAOOnPfLhd6ahzeBUFyM2-dUk_HGk=);
+    z-index: -1;
+    opacity: 0.4;
+}
+.Hero-heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Hero-heading h1{
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 0.5rem 3rem;
+    border-radius: 10px;
+    color: rgb(3, 2, 2);
+    background: #ffffff;
+    mix-blend-mode: screen;
+}
+.Hero-heading{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(173, 171, 171);
+    padding: 5px 15px;
+    text-align: center;
+}
+@media (max-width:600px){
+    .Hero-heading h1{
+        font-size: 1.5rem; 
+    }
+}
