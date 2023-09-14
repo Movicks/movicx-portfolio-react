@@ -54,9 +54,9 @@ const wizards2 = [
     {
       complete: false,
       number: <SchoolSharp/>,
-      title: 'Create Account',
+      title: 'Awards',
       text:
-        'Hello',
+        'Harvard CS50',
     },
   ];
 function StepSection() {

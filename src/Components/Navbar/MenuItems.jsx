@@ -1,27 +1,27 @@
 export const MenuItems = [
     {
         title: 'Home',
-        url: '/',
+        url: '/movicx-portfolio-react',
         cName: 'Nav-Links'
     },
     {
         title: 'Blog',
-        url: '/blog',
+        url: '/movicx-portfolio-react/blog',
         cName: 'Nav-Links'
     },
     {
         title: 'Projects',
-        url: '/projects',
+        url: '/movicx-portfolio-react/projects',
         cName: 'Nav-Links'
     },
     {
         title: 'About',
-        url: '/about',
+        url: '/movicx-portfolio-react/about',
         cName: 'Nav-Links'
     },
     {
         title: 'Contacts',
-        url: '/contact',
+        url: '/movicx-portfolio-react/contacts',
         cName: 'Nav-Links'
     },
 ]

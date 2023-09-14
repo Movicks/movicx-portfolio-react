@@ -17,7 +17,7 @@ const Banner = () => {
                   Lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
                </p>
                <div className='btn-box'>
-                  <Link to='projects'>Projects</Link>
+                  <Link to='/movicx-portfolio-react/projects'>Projects</Link>
                   {/* <a href=''>Projects</a> */}
                   <a href='mailto:victoride013@gmail.com'>Hire me</a>
                </div>

@@ -10,7 +10,6 @@ const Blog = () => {
     <div className='Blog'>
       <Navbar/>
          <HeroImg2 heading="BLOG" text="Hello World"/>
-          
       <Footer/>
     </div>
   );

@@ -92,7 +92,7 @@ const Home = () => {
                     </p>
                     <div className='btn-box' id='Aboutmee1'>
                         <a href="#" className="btn1">My CV</a>
-                        <Link to='/about' className="btn2" id='btn2'>
+                        <Link to='/movicx-portfolio-react/about' className="btn2" id='btn2'>
                             <button>More <ArrowForward className='Arrow'/></button>
                         </Link>
                     </div>
