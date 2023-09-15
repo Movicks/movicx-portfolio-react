@@ -9,7 +9,7 @@ const Blog = () => {
   return (
     <div className='Blog'>
       <Navbar/>
-         <HeroImg2 heading="BLOG" text="Hello World"/>
+         <HeroImg2 heading="EXPLORING TECH" text="Your Source for Tech Insights"/>
       <Footer/>
     </div>
   );

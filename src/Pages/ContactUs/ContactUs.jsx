@@ -11,7 +11,7 @@ const ContactUs = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-  const [setFormSubmitted] = useState(false);
+  const [formSubmitted, setFormSubmitted] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
   const [successMessage, setSuccessMessage] = useState('');
 
@@ -28,8 +28,8 @@ const ContactUs = () => {
         (result) => {
           console.log(result.text);
           setFormSubmitted(true);
-          setSuccessMessage('Message sent successfully!');
-          resetForm();
+          setSuccessMessage('Message sent, Thank You!');
+          resetForm(); // Clear input fields after successful submission
         },
         (error) => {
           console.log(error.text);
@@ -75,15 +75,17 @@ const ContactUs = () => {
   return (
     <>
       <Navbar />
-      <HeroImg2 heading="CONTACT" text="Contact me for your next project." />
+      <HeroImg2 heading="CONTACT US" text="Contact me for your next project." />
       <section className="contact" id="contact">
         <div className="row">
-          
           <form ref={form} onSubmit={sendEmail}>
-          {errorMessage && <p className="error-message">{errorMessage}</p>}
-          {successMessage && (
-            <p className="success-message">{successMessage}</p>
-          )}
+            {errorMessage && <p className="error-message">{errorMessage}</p>}
+            {successMessage && (
+              <p className="success-message">{successMessage}</p>
+            )}
+            {formSubmitted && (
+              <p className="success-message">Message sent <br/>Thanks for contacting us!</p>
+            )}
             <input
               type="text"
               placeholder="Name:"
@@ -92,7 +94,6 @@ const ContactUs = () => {
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
-           
             <input
               type="email"
               placeholder="Email:"
@@ -110,13 +111,12 @@ const ContactUs = () => {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             ></textarea>
-            <input type="submit" value="Send message" className="btn" />
+            <input type="submit" value="Send message" className="btn5" />
           </form>
 
           <div className="image">
             <img src="https://media.istockphoto.com/id/1456509727/photo/cybersecurity-and-privacy-concept-of-data-protection-secure-encryption-technology-secure.jpg?s=612x612&w=0&k=20&c=lkgJXoYhilvqHQBv9FUcJruZcPjQDUYQJ_T2Yo2LYDs=" alt="Movicks" />
           </div>
-
         </div>
       </section>
       <Footer />

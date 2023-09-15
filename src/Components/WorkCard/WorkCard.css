@@ -5,15 +5,15 @@
     font-weight: 500;
     border-bottom: 2px solid blue;
  }
- .Project-card{
+ .Project-card2{
      padding: 1.9rem 0.5rem;
      border-radius: 10px;
      transition: transform 0.3s ease;
  }
- .Project-card:hover {
+ .Project-card2:hover {
      transform: scale(1.05); /* Enlarge the card on hover */
  }
- .Project-card img{
+ .Project-card2 img{
      width: 310px;
      height: 260px;
      border-radius: 12px;
@@ -54,7 +54,7 @@
      color: blue;
  }
  @media(min-width:700px){
-     .Project-card{
+     .Project-card2{
          padding: 14px;
      }
  }
@@ -70,7 +70,7 @@
       }
  }
  
- .Project-card {
+ .Project-card2 {
      padding: 20px;
    }
    

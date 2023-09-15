@@ -12,13 +12,89 @@
      margin: auto;
      display: flex;
      flex-wrap: wrap;
-     gap: 0.5px;
+     gap: 0px;
+     padding: 0px 10px;
      background: #17022c;
  }
- 
+ .heading {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(10, 134, 241);
+    padding: 5px 15px;
+    margin: 1rem 0;
+    margin-bottom: -7px;
+}
+.heading5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(10, 134, 241);
+    padding: 5px 15px;
+    margin: 1rem 0;
+    margin-bottom: -7px;
+}
+.aboutUs {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 5px 15px;
+    color: rgb(170, 167, 167);
+}
+.about .row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    padding: .3rem 0;
+    padding-bottom: 3rem;
+    /* margin-left: 1.5rem; */
+}
+.video-container {
+    flex: 1 1 15rem;
+    height: 26rem;
+    border: 2px solid rgb(10, 134, 241);
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(10, 134, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 1px 37px;
+    /* animation: glowing 2s infinite; */
+}
+@keyframes glowing{
+    0% {
+        box-shadow: 0 0 10px rgb(10, 134, 241); /* Start with a small glow */
+      }
+      50% {
+        box-shadow: 0 0 25px rgb(10, 134, 241); /* Increase the glow midway through the animation */
+      }
+      100% {
+        box-shadow: 0 0 10px rgb(10, 134, 241); /* Return to the original glow at the end */
+      }
+}
+.video_row{
+    border: 2px solid rgb(10, 134, 241);
+    border-radius: 2rem;
+    width: 18rem;
+    height: 22rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(10, 134, 241);
+    overflow: hidden;
+    margin: 2px 20px;
+    animation: glowing 2s infinite;
+}
+
+.image{
+   min-width: 10rem;
+   max-width: 20rem;
+   border-radius: 14rem;
+}
  @media (min-width:427px){
      .StarSkill{
-         padding: 1px 8px;
+         padding: 0px 40px;
      }
  }
  @media (min-width:360px){
@@ -33,6 +109,9 @@
      .Collection{
          width: auto;
      }
+     .video_row{
+        width: 43rem;
+        }
  }
  .skill_Icons{
     margin-bottom: 9px;
@@ -43,25 +122,27 @@
      width: 300px;
  }
  .Collection p {
-     font-size: 16px;
+     font-size: 12px;
      font-weight: 500;
  }
  .Collection p ul li{
      font-size: 17.5px;
      font-weight: 500;
  }
- @media (max-width:320px){
-     /* html{
-         font-size: 10%;
-     } */
-     *{
-         font-size: 100%;
-     }
- }
+
  /* media here */
  @media (max-width:500px){
+    html{
+        font-size: 100%;
+    }
+    .heading5 {
+        text-align: center;
+    }
      .Collection{
          width: 394px;
+     }
+     .Project-card{
+        padding: 0.11rem;
      }
      .Experiences{
          justify-content: center;
@@ -102,6 +183,38 @@
          color: rgb(143, 143, 143);
      }
  }
+ .about .row>.content {
+    flex: 1 1 40rem;
+    padding: 5px 15px;
+}
+.content>h3{
+    background: rgba(10, 133, 241, 0.137);
+    width: 170px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    border-radius: 3px;
+    color: rgb(204, 198, 198);
+}
+.onai2{
+    color: rgb(204, 198, 198);
+}
+.client-mark{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 8px;
+    gap: 1px;
+}
+
+.about .row .content p {
+    font-size: 0.8rem;
+    color: rgb(134, 130, 134);
+    padding: 5px 10px;
+    padding-top: 0.7rem;
+    line-height: 1.5;
+}
  
  figure{
      margin: 0;
@@ -156,8 +269,8 @@
      background: rgb(10, 134, 241);
      color: #fff;
  }
- button{
-     width: 80px;
+ .button{
+     width: 90px;
      display: flex;
      align-items: center;
      justify-content: center;
@@ -175,7 +288,6 @@
      border-radius: 8px;
      border: 2px solid rgb(10, 134, 241);
      color: #fff;
-     /* background: rgb(10, 134, 241); */
      padding: 1.3rem 1.5rem;
      width: 10rem;
      cursor: pointer;
@@ -191,7 +303,6 @@
      display: flex;
      align-items: center;
      justify-content: space-between;
-     margin-bottom: 20px;
      width: 190px;
      height: auto;
      border-radius: 4px;
@@ -227,8 +338,8 @@
      color: rgb(10, 134, 241);
      cursor: pointer;
  }
- .Client-services p{
-     font-size: 0.8rem;
-     font-weight: 900;
-     color: rgb(143, 143, 143);
- }
+.Client-services p{
+    font-size: 0.8rem;
+    font-weight: 900;
+    color: rgb(143, 143, 143);
+}

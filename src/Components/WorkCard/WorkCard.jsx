@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const WorkCard = (props) => {
   return (
-  <div className='Project-card bg-[#280c5c]'>
+  <div className='Project-card2 bg-[#280c5c]'>
     <img src={props.Imgsrc} alt='bannerphoto'/>
     <h2 className='project-title'>{props.Title}</h2>
     <div className='pro-details'>

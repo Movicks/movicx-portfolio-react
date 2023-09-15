@@ -2,10 +2,10 @@
     
 } */
 .contact{
-    padding: 8px 0.8rem 3%;
+    padding: 3px 0.2rem 3%;
     background: #17022c;
     width: 100vw;
-    height: 100vh;
+    height: auto;
 }
 .contact .row {
     display: flex;
@@ -13,6 +13,8 @@
     gap: 1.2rem;
     align-items: center;
     justify-content: center;
+    padding: .3rem 0;
+    padding-bottom: 3rem;
 }
 
 .contact .row form {
@@ -29,7 +31,7 @@
     .contact .row form {
         max-width: 100%;
     } 
-    .btn{
+    .btn5{
         color: blue; 
         border: 3px solid blue;
         box-shadow: 0 0 10px  rgb(21, 21, 226);
@@ -39,11 +41,11 @@
 }
 @media (min-width:700px){
     .contact{
-        padding: 8px 1.5rem 20%;
+        padding: 8px 5rem 1%;
     } 
 }
 .contact .row form .box {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     text-transform: none;
     margin: .4rem 0;
     width: 100%;
@@ -56,7 +58,6 @@
     margin: .7rem 0;
     outline: none;
     font-weight: 500;
-    font-size: 1.3rem;
     text-transform: none;
 }
 .contact .row form .box2 {
@@ -70,7 +71,7 @@
     height: 200px;
     outline: none;
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-transform: none;
 }
 .contact .row form .box:focus {
@@ -92,6 +93,9 @@
     background: blue;
     margin-bottom: 10px;
     box-shadow: 0 0 10px  rgb(21, 21, 226);
+    min-width: 10rem;
+    max-width: 20rem;
+    border-radius: 14rem;
 }
 
 .contact .row .image>img {
@@ -104,14 +108,14 @@
     font-size: 18px;
     color: blue;
   }
-.btn{
+.btn5{
     color: blue;  
     border: 3px solid blue;
     box-shadow: 0 0 10px  rgb(21, 21, 226);
     background: #17022c;
     font-size: 20px;
 }
-.btn:hover{
+.btn5:hover{
     color: blue; 
     background: #17022c;
 }
@@ -120,7 +124,7 @@
 } */
 .success-message {
     background: rgb(10, 134, 241);
-    font-size: 24px;
+    font-size: 16px;
     color: white;
     font-weight: bold;
     padding: 10px 20px;
@@ -132,9 +136,9 @@
     animation: floatAnimation 3s ease-in-out infinite;
   }
 .error-message{
-    font-size: 24px;
-    border: 3px solid red;
-    color: red;
+    font-size: 12px;
+    border: 3px solid rgb(243, 21, 21);
+    color: rgb(224, 40, 40);
     font-weight: 500;
     padding: 5px 20px;
     margin: 2px;
@@ -142,7 +146,7 @@
     max-width: 300px;
     word-wrap: break-word;
     transition: opacity 0.3s ease-in-out;
-    animation: floatAnimation 0.3s ease-in-out infinite;
+    animation: floatAnimation 1.5s ease-in-out infinite;
 }
   
   @keyframes floatAnimation {
@@ -153,4 +157,20 @@
       transform: translateY(-10px);
     }
   }
- 
+  .btn5 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    border-radius: 8px;
+    border: 2px solid blue;
+    color: blue;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px blue;
+    margin: 12px;
+    transition: 0.5s;
+}

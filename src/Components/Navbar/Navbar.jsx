@@ -38,7 +38,7 @@ class Navbar extends Component {
             return (
               <li key={index}>
                 <Link to={item.url} className={item.cName}>
-                 <button>
+                 <button className='button2'>
                   {item.title}
                  </button>
                 </Link>

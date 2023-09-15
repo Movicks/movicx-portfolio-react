@@ -29,8 +29,8 @@ const Home = () => {
         <div>
             <ul className='StarSkill md:flex justify-center'>
               <li className='Project-card text-small 
-              leading-tight font-small font-300 p-2'>
-                <div className="Collection p-4 bg-[#280c5c]">
+              leading-tight font-small font-300 p-1'>
+                <div className="Collection p-8 bg-[#280c5c]">
                     <Settings className='skill_Icons'/>
                     <div className="text-lg 
                     leading-tight text-white-400 
@@ -42,8 +42,8 @@ const Home = () => {
                 </div>
               </li>
               <li className='Project-card text-small 
-              leading-tight font-small font-300 p-2'>
-                <div className="Collection p-4 bg-[#280c5c]">
+              leading-tight font-small font-300 p-1'>
+                <div className="Collection p-8 bg-[#280c5c]">
                     <WorkOutlineRounded className='skill_Icons'/>
                     <div className=" tracking-wide text-lg 
                     leading-tight text-white-400 
@@ -53,8 +53,8 @@ const Home = () => {
                 </div>
               </li>
               <li className='Project-card text-small 
-              leading-tight font-small font-300 p-2'>
-                <div className="Collection p-4 bg-[#280c5c]">
+              leading-tight font-small font-300 p-1'>
+                <div className="Collection p-8 bg-[#280c5c]">
                     <DiamondRounded className='skill_Icons'/>
                     <div className=" tracking-wide text-lg 
                     leading-tight text-white-400 
@@ -80,7 +80,7 @@ const Home = () => {
             </div>
             <div className="content">
                 <div>
-                    <h2 className="heading text-start">
+                    <h2 className="heading5 text-start">
                        My Bio
                     </h2>
                     <p> Victor known as Movicx is a Front-end Developer, 
@@ -93,7 +93,7 @@ const Home = () => {
                     <div className='btn-box' id='Aboutmee1'>
                         <a href="#" className="btn1">My CV</a>
                         <Link to='/movicx-portfolio-react/about' className="btn2" id='btn2'>
-                            <button>More <ArrowForward className='Arrow'/></button>
+                            <button className='button'>More <ArrowForward className='Arrow'/></button>
                         </Link>
                     </div>
                 </div>
@@ -102,14 +102,14 @@ const Home = () => {
         <div className='flex justify-center align-center'>
             <div className='md:flex justify-center m-10'>
                 <div className='flex'>
-                   <div className='Experiences flex bg-[#280c5c] m-2 p-8'>
+                   <div className='Experiences flex bg-[#280c5c] m-1 p-8'>
                      <h2>09</h2>
                         <div>
                             <p>Digital</p>
                             <p>Products</p>
                         </div>
                    </div>
-                   <div className='Experiences flex bg-[#280c5c] m-2 p-8'>
+                   <div className='Experiences flex bg-[#280c5c] m-1 p-8'>
                       <h2>20</h2>
                       <div>
                         <p>Direct</p>
@@ -118,14 +118,14 @@ const Home = () => {
                    </div> 
                 </div>
                 <div className='flex'>
-                    <div className='Experiences flex bg-[#280c5c] m-2 p-8'>
+                    <div className='Experiences flex bg-[#280c5c] m-1 p-8'>
                      <h2>12</h2>
                         <div>
                             <p>Total</p>
                             <p>Projects</p>
                         </div>
                     </div>
-                    <div className='Experiences flex bg-[#280c5c] m-2 p-8'>
+                    <div className='Experiences flex bg-[#280c5c] m-1 p-8'>
                      <h2>3M</h2>
                         <div>
                             <p>Lines</p>
@@ -142,17 +142,17 @@ const Home = () => {
             <p className="aboutUs">What I do for my clients</p>
             <div className='flex justify-center align-center'>
                 <div className='md:flex justify-center m-7'>
-                    <div className='flex'>
-                        <div className='Client-services bg-[#280c5c] m-2 p-5 justify-center align-center text-center'>
+                    <div className='client-mark flex'>
+                        <div className='Client-services bg-[#280c5c] p-5 justify-center align-center text-center'>
                         {/* your icons here */}
                             <CodeOffOutlined className='Service-icon'/>
                             <p className='text-palettes-900'>Web Development</p>
                         </div>
-                        <div className='Client-services bg-[#280c5c] m-2 p-5 justify-center align-center text-center'>
+                        <div className='Client-services bg-[#280c5c] m-1 p-5 justify-center align-center text-center'>
                             <BusinessCenterOutlined className='Service-icon'/>
                             <p>Digital Marketing</p>
                         </div>
-                        <div className='Client-services bg-[#280c5c] m-2 p-5 justify-center align-center text-center'>
+                        <div className='Client-services bg-[#280c5c] p-5 justify-center align-center text-center'>
                             <AdsClick className='Service-icon'/>
                             <p>Social Media Management</p>
                         </div>

@@ -8,13 +8,13 @@ const Banner = () => {
   return (
     <div className='Hero-Img1'>
       <div className='Hero-heading1'>
-         <div className='mainContainer1 md:flex '>
+         <div className='mainContainer1 md:flex mt-10'>
             <div className='Home-content1 justify-center'>
                <h1>Hi, I'm <span className='Victor'>Victor</span> Idepe</h1>
                <h3>Frontend Developer</h3>
-               <p>Lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
-                  Lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
-                  Lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
+               <p>I am a React js developer,
+                  i am someone who enjoys building innovative and 
+                  responsive websites that solves problems for my clients.
                </p>
                <div className='btn-box'>
                   <Link to='/movicx-portfolio-react/projects'>Projects</Link>

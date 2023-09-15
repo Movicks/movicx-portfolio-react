@@ -1,7 +1,12 @@
 import { } from 'react';
 import './StepSection.css';
 import {} from '@mui/material';
-import { BusinessOutlined, SchoolRounded, SchoolSharp, SchoolTwoTone, VideoCameraBackOutlined, WorkOutlineOutlined } from '@mui/icons-material';
+import { BusinessOutlined, 
+  SchoolRounded, 
+  SchoolSharp, 
+  SchoolTwoTone, 
+  VideoCameraBackOutlined,
+  WorkOutlineOutlined } from '@mui/icons-material';
 
 
 const tickIcon = (
@@ -20,6 +25,13 @@ const wizards = [
     title: 'Zuri Team',
     text:
       'Front end Internship',
+  },
+  {
+    complete: false,
+    number: <WorkOutlineOutlined/>,
+    title: 'ProjectStake',
+    text:
+      'Front end internship',
   },
   {
     complete: false,
@@ -56,7 +68,7 @@ const wizards2 = [
       number: <SchoolSharp/>,
       title: 'Awards',
       text:
-        'Harvard CS50',
+        'Harvard CS50 (in view)',
     },
   ];
 function StepSection() {
