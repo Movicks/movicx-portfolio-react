@@ -12,8 +12,8 @@ const Banner = () => {
             <div className='Home-content1 justify-center'>
                <h1>Hi, I'm <span className='Victor'>Victor</span> Idepe</h1>
                <h3>Frontend Developer</h3>
-               <p>I am a React js developer,
-                  i am someone who enjoys building innovative and 
+               <p>I am a React js developer and 
+                  I enjoy building innovative and 
                   responsive websites that solves problems for my clients.
                </p>
                <div className='btn-box'>
@@ -24,7 +24,7 @@ const Banner = () => {
                <div className='imageContainer'>
                     <img src={Movicx} alt='BannerImage' className='bannerImage'/>
                     {/* <div className='color-Box'></div> */}
-                </div>
+               </div>
             </div>
          </div>
       </div>

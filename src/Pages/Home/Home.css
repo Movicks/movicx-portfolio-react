@@ -103,7 +103,11 @@
      }
  }
  
- 
+ #Aboutmee1{
+    display: flex;
+    width: 350px;
+    height: 60px;
+}
  
  @media (min-width:700px){
      .Collection{
@@ -134,6 +138,11 @@
  @media (max-width:500px){
     html{
         font-size: 100%;
+    }
+    #Aboutmee1{
+        display: flex;
+        width: 350px;
+        height: 45px;
     }
     .heading5 {
         text-align: center;
@@ -168,9 +177,6 @@
      .btn1 {
          padding: 0.9rem 3.5rem;
      }
-     /* main{
-         margin-bottom: 0.2rem;
-     } */
      .Client-services .Service-icon{
          font-size: 46px;
          font-weight: 600;
@@ -242,11 +248,6 @@
      border: 2px solid #fff;
      box-shadow: 0 0 15px #fff;
      display: none;
- }
- #Aboutmee1{
-     display: flex;
-     width: 350px;
-     height: 60px;
  }
  .btn1 {
      display: inline-flex;

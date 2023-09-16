@@ -16,11 +16,31 @@ const Footer = () => {
               <h2>About Me</h2>
               <p>I enjoy building interactive and responsive webpages that makes my clients happy.</p>
               <ul className='sci flex'>
-                <li><a href='https://'><FacebookRounded/></a></li>
-                <li><a href='https://'><Twitter/></a></li>
-                <li><a href='https://'><LinkedIn/></a></li>
-                <li><a href='https://github.com/Movicks'><GitHub/></a></li>
-                <li><a href='https://'><YouTube/></a></li>
+                <li>
+                  <a href='https://www.facebook.com/profile.php?id=100085632385398&mibextid=D4KYlr'>
+                    <FacebookRounded/>
+                  </a>
+                </li>
+                <li>
+                  <a href='https://twitter.com/onaivictor?s=09'>
+                    <Twitter/>
+                  </a>
+                </li>
+                <li>
+                  <a href='https://www.linkedin.com/in/victor-idepe-40b516235'>
+                    <LinkedIn/>
+                  </a>
+                </li>
+                <li>
+                  <a href='https://github.com/Movicks'>
+                    <GitHub/>
+                  </a>
+                </li>
+                <li>
+                  <a href='https://youtube.com/@CodlabX9770?si=lg_5KiwnJmVzno50'>
+                    <YouTube/>
+                  </a>
+                </li>
               </ul>
              </div>
              <div className='sec quickLinks'>

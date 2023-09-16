@@ -21,7 +21,7 @@ class Navbar extends Component {
   render() {
     return (
       <header>
-        <Link to='/'>
+        <Link to='/movicx-portfolio-react'>
            <img src={DevMovicx} alt="logo" className="logo" />
         </Link>
         <div className="toggleIconMenu">

@@ -74,9 +74,6 @@ const Home = () => {
                  <div className='video_row'>
                    <img src={Movicx2} alt='Photo' className='image' loading='lazy'/>
                  </div>
-                 {/* <div className="image">
-                    <img src="https://media.istockphoto.com/id/1456509727/photo/cybersecurity-and-privacy-concept-of-data-protection-secure-encryption-technology-secure.jpg?s=612x612&w=0&k=20&c=lkgJXoYhilvqHQBv9FUcJruZcPjQDUYQJ_T2Yo2LYDs=" alt="Movicks" />
-                 </div> */}
             </div>
             <div className="content">
                 <div>
