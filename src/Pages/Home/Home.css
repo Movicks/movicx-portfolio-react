@@ -124,6 +124,7 @@
  
  .Collection{
      width: 300px;
+     height: 180px;
  }
  .Collection p {
      font-size: 12px;
