@@ -8,13 +8,13 @@
     display: none;
  }
  .StarSkill{
-     max-width: 1390px;
-     margin: auto;
-     display: flex;
-     flex-wrap: wrap;
-     gap: 0px;
-     padding: 0px 10px;
-     background: #17022c;
+    max-width: 1390px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    padding: 0px 10px;
+    background: #17022c;
  }
  .heading {
     text-align: center;
@@ -64,14 +64,14 @@
 }
 @keyframes glowing{
     0% {
-        box-shadow: 0 0 10px rgb(10, 134, 241); /* Start with a small glow */
-      }
-      50% {
-        box-shadow: 0 0 25px rgb(10, 134, 241); /* Increase the glow midway through the animation */
-      }
-      100% {
-        box-shadow: 0 0 10px rgb(10, 134, 241); /* Return to the original glow at the end */
-      }
+   box-shadow: 0 0 10px rgb(10, 134, 241); /* Start with a small glow */
+    }
+    50% {
+    box-shadow: 0 0 25px rgb(10, 134, 241); /* Increase the glow midway through the animation */
+    }
+    100% {
+    box-shadow: 0 0 10px rgb(10, 134, 241); /* Return to the original glow at the end */
+    }
 }
 .video_row{
     border: 2px solid rgb(10, 134, 241);
@@ -123,16 +123,16 @@
  }
  
  .Collection{
-     width: 300px;
-     height: 180px;
+    width: 300px;
+    height: 180px;
  }
  .Collection p {
-     font-size: 12px;
-     font-weight: 500;
+    font-size: 12px;
+    font-weight: 500;
  }
  .Collection p ul li{
-     font-size: 17.5px;
-     font-weight: 500;
+    font-size: 17.5px;
+    font-weight: 500;
  }
 
  /* media here */
@@ -221,124 +221,125 @@
     padding: 5px 10px;
     padding-top: 0.7rem;
     line-height: 1.5;
+    max-width: 700px;
 }
  
  figure{
-     margin: 0;
-     position: relative;
-     flex: 1 1 15rem;
-     height: 23rem;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     border: 2px solid blue;
-     overflow: hidden;
-     margin: 2px 37px;
+    margin: 0;
+    position: relative;
+    flex: 1 1 15rem;
+    height: 23rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid blue;
+    overflow: hidden;
+    margin: 2px 37px;
  }
  .me-image{
-     height: 250px;
-     border: 2px solid #fff;
-     box-shadow: 0 0 20px #fff;
+    height: 250px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 20px #fff;
  }
  .image-bg{
-     width: 200px;
-     height: 250px;
-     position: absolute;
-     bottom: -20px;
-     left: -10px;
-     border: 2px solid #fff;
-     box-shadow: 0 0 15px #fff;
-     display: none;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 15px #fff;
+    display: none;
  }
  .btn1 {
-     display: inline-flex;
-     align-items: center;
-     justify-content: center;
-     margin-top: 1rem;
-     border-radius: 8px;
-     border: 2px solid rgb(10, 134, 241);
-     color: rgb(10, 134, 241);
-     padding: 1rem 1rem;
-     width: 10rem;
-     cursor: pointer;
-     font-size: 10px;
-     font-weight: 500;
-     box-shadow: 0 0 10px rgb(10, 134, 241);
-     margin: 12px;
-     transition: 0.5s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    border-radius: 8px;
+    border: 2px solid rgb(10, 134, 241);
+    color: rgb(10, 134, 241);
+    padding: 1rem 1rem;
+    width: 10rem;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 500;
+    box-shadow: 0 0 10px rgb(10, 134, 241);
+    margin: 12px;
+    transition: 0.5s;
  }
  .btn1:hover{
-     background: rgb(10, 134, 241);
-     color: #fff;
+    background: rgb(10, 134, 241);
+    color: #fff;
  }
  .button{
-     width: 90px;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     justify-content: space-between;
-     border: none;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    border: none;
  }
  #btn2:hover .Arrow{
-     color: #fff;
+    color: #fff;
  }
  .btn2 {
-     display: inline-flex;
-     align-items: center;
-     justify-content: center;
-     margin-top: 1rem;
-     border-radius: 8px;
-     border: 2px solid rgb(10, 134, 241);
-     color: #fff;
-     padding: 1.3rem 1.5rem;
-     width: 10rem;
-     cursor: pointer;
-     font-size: 19px;
-     font-weight: 600;
-     letter-spacing: 1px;
-     box-shadow: 0 0 10px rgb(10, 134, 241);
-     margin: 12px;
-     transition: 0.5s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    border-radius: 8px;
+    border: 2px solid rgb(10, 134, 241);
+    color: #fff;
+    padding: 1.3rem 1.5rem;
+    width: 10rem;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px rgb(10, 134, 241);
+    margin: 12px;
+    transition: 0.5s;
  }
  
  .Experiences{
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-     width: 190px;
-     height: auto;
-     border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 190px;
+    height: auto;
+    border-radius: 4px;
  }
  .Experiences h2{
-     font-size: 1.7rem;
-     font-weight: 700;
-     margin-top: 3px;
-     color: rgb(10, 134, 241);
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-top: 3px;
+    color: rgb(10, 134, 241);
  }
  .Experiences p{
-     font-size: 0.8rem;
-     font-weight: 900;
-     margin-top: 1px;
-     color: rgb(143, 143, 143);
+    font-size: 0.8rem;
+    font-weight: 900;
+    margin-top: 1px;
+    color: rgb(143, 143, 143);
  }
  .Services-container{
-     width: 100vw;
-     display: flex;
-     align-items: center;
-     justify-content: center;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
  }
  .Services{
-     width: 200px;
+    width: 200px;
  }
  .Client-services{
-     border-radius: 4px;
+    border-radius: 4px;
  }
  .Client-services .Service-icon{
-     font-size: 30px;
-     font-weight: 600;
-     margin-bottom: 5px;
-     color: rgb(10, 134, 241);
-     cursor: pointer;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: rgb(10, 134, 241);
+    cursor: pointer;
  }
 .Client-services p{
     font-size: 0.8rem;
